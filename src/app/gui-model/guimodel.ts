@@ -1,4 +1,4 @@
-export class GuiModel {
+﻿export class GuiModel {
 
     /* HINWEIS: Texte sind in der Datei ../example-translation-service.ts definiert.
     Erscheinen Texte in {}, so kann die Übersetzung in example-translation-service.ts definiert werden
@@ -30,7 +30,7 @@ export class GuiModel {
                             "required": true
                         },
                         {
-                        	"id": "nickname",
+                            "id": "nickname",
                             "type": "text",
                             "name": "Nickname",
                             "width": 2,
@@ -111,10 +111,10 @@ export class GuiModel {
                         {
                             "type": "okButton",
                             "name": "Ok"
-          		        }
+                        }
                     ]
                 },
-				{                            
+                {                            
                     "id": "GroupForm",
                     "title": "Group",
                     "formFieldList": [
@@ -125,7 +125,7 @@ export class GuiModel {
                             "width": 2,
                             "required": true
                         },
-          				{   
+                        {   
                             "type": "deleteButton",
                             "name": "Delete"
                         },
@@ -136,7 +136,7 @@ export class GuiModel {
                         {
                             "type": "okButton",
                             "name": "Ok"
-          		        }
+                        }
                     ]
                 },
                 {
@@ -214,7 +214,7 @@ export class GuiModel {
                             "color": "blue",
                             "search": true,
                             "data": [ { name: "Anton Amacker" }, { name: "Britta Beavers"} ],
-							"page": "personpage",
+                            "page": "personpage",
                         },
                     ]
                 },
@@ -281,8 +281,8 @@ export class GuiModel {
                          }
                       }  
                     ]   
-           	 	 },
-          	 	 {                            
+                 },
+                 {                            
                     "id": "groupspage",
                     "elementList": [
                         {
@@ -297,7 +297,7 @@ export class GuiModel {
                                 "form": "GroupForm"
                             }
                         },
-                     	{
+                        {
                             "type": "list",
                             "icon": "fa-weixin",
                             "color": "wisteria",
@@ -306,8 +306,8 @@ export class GuiModel {
                                 "form": "GroupForm"
                                }
                         },
-  					]
-           	 	}                        
+                    ]
+                }                        
 
             ]
         }
